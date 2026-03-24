@@ -1,0 +1,227 @@
+Courtify - Built by Hammad, Zayan, Hashir from FAST University as a DB project.
+This document contains all rules, policies, and features of the Courtify Sports Booking Platform.
+
+--- Court Owner Features ---
+1. A court owner can create new courts.
+2. Court creation will be pending until admin approval.
+3. Admin can approve or reject courts.
+4. Courts can be edited or deleted by the owner before approval.
+5. Only approved courts are visible to users.
+6. Court owners receive notifications for new bookings.
+7. Court owners receive notifications for booking cancellations.
+8. Court owners receive notifications for booking confirmations.
+9. Court owners receive notifications when payment is received for bookings.
+10. Court owners can track all bookings for their courts.
+11. Court owners can set peak hours and pricing for each court.
+12. Court owners can enable or disable specific booking slots.
+13. Court owners can view pending bookings and confirm or reject them.
+14. Court owners can send messages to users about bookings.
+15. Court owners can see statistics of bookings per month.
+16. Court owners can manage discounts and offers.
+17. Court owners can manage multiple courts under one account.
+18. Court owners can view user feedback and ratings.
+19. Court owners can update court images and descriptions.
+20. Court owners can set special rules for tournaments.
+
+--- Admin Features ---
+21. Admin can approve or reject new courts.
+22. Admin can manage users and court owners.
+23. Admin can view all bookings and generate reports.
+24. Admin can send notifications to users and court owners.
+25. Admin can manage peak hours and pricing globally.
+26. Admin can suspend court owners for violations.
+27. Admin can track pending booking requests.
+28. Admin can manage payment policies.
+29. Admin can create platform-wide announcements.
+30. Admin can monitor system usage statistics.
+31. Admin can view and resolve user complaints.
+32. Admin can manage membership policies.
+33. Admin can approve special event bookings.
+34. Admin can generate invoices for any bookings.
+35. Admin can track payments and refunds.
+36. Admin can review feedback from users about courts.
+37. Admin can control which courts are featured.
+38. Admin can set cancellation rules.
+39. Admin can manage tournament schedules.
+40. Admin can contact court owners directly.
+
+--- User Features ---
+41. Booking slots must be at least 1 hour in advance.
+42. Booking is non-refundable.
+43. Booking will be pending until advance payment is completed.
+44. If advance payment is not completed, booking is rejected.
+45. Users can cancel bookings before paying the advance.
+46. Users can mark favorite courts.
+47. Users can create matches and invite others.
+48. Users receive notifications for booking confirmations.
+49. Users receive notifications for booking cancellations.
+50. Users receive notifications for match reminders.
+51. Users receive notifications for payment reminders.
+52. Users can track their bookings and matches.
+53. Users can only book approved courts.
+54. Users can view court availability in real-time.
+55. Users can rate and review courts after playing.
+56. Users can see peak hours for each court.
+57. Users can receive discount notifications if eligible.
+58. Users can pay via multiple payment methods.
+59. Users can view transaction history.
+60. Users can edit their profile and preferences.
+61. Users can report issues with courts.
+62. Users can search courts by location, sport, or rating.
+63. Users can filter courts by price range.
+64. Users can view images and videos of courts.
+65. Users can check court facilities (lights, parking, seating, etc.)
+66. Users can subscribe to notifications for specific courts.
+67. Users can join community matches or tournaments.
+68. Users can communicate with other players for matches.
+69. Users can invite friends to join matches.
+70. Users can create group bookings for events.
+71. Users can check-in online before the match starts.
+72. Users can reschedule bookings if allowed.
+73. Users can cancel upcoming matches under rules.
+74. Users can see a dashboard of upcoming bookings.
+75. Users can get reminders 30 minutes before match start.
+76. Users can see booking history per court.
+77. Users can request special equipment or facilities.
+78. Users can provide feedback to court owners.
+79. Users can view ongoing offers and discounts.
+80. Users can set preferred time slots for bookings.
+
+--- Notifications & Tracking ---
+81. All users receive notifications for bookings.
+82. Court owners receive notifications for all activity on their courts.
+83. Admin receives notifications for pending approvals.
+84. Notification types include SMS, email, and in-app notifications.
+85. Users get alerts if bookings are rejected.
+86. Users get alerts for upcoming matches.
+87. Court owners get notifications for canceled bookings.
+88. Court owners get alerts when advance payments are completed.
+89. Users and owners can enable or disable notifications.
+90. Booking tracking shows status: pending, confirmed, canceled, completed.
+91. Users can track payment status: pending, completed, refunded.
+92. Court owners can track all bookings with payment status.
+93. Admin can monitor booking trends.
+94. Users get alerts for favorite court availability.
+95. Users get notifications for new courts added in their city.
+96. Admin can see which notifications were delivered.
+97. Users and owners can opt-in for marketing messages.
+98. Users get alerts for membership renewals.
+99. Court owners get alerts for upcoming events.
+100. Admin can configure notification templates.
+
+--- Booking Rules ---
+101. Minimum booking duration: 1 hour.
+102. Maximum booking duration: 4 hours per slot.
+103. Only approved courts can be booked.
+104. Advance payment required for confirmation.
+105. Users cannot double-book overlapping slots.
+106. Court owners can block unavailable slots.
+107. Bookings must be done 1 hour in advance.
+108. Booking is non-refundable after confirmation.
+109. Users can cancel before advance payment.
+110. Users can request special timings.
+111. Admin can override booking conflicts.
+112. Users can book multiple courts in one session.
+113. Users cannot bypass payment rules.
+114. Court owners must approve availability changes.
+115. Peak hours may have different pricing.
+116. Discounts apply only when specified.
+117. Users must follow platform rules for booking.
+118. Admin can reject bookings violating policies.
+119. Users are responsible for accurate booking info.
+120. Court owners must maintain courts as per policy.
+
+--- Payments ---
+121. All bookings require payment.
+122. Advance payment is mandatory to confirm.
+123. Users can pay via credit card, debit card, or e-wallet.
+124. Users can view payment receipts.
+125. Refunds are possible only before confirmation.
+126. Users cannot pay partially unless allowed.
+127. Court owners receive payment notification instantly.
+128. Admin can track payments per court.
+129. Users can see due payments.
+130. Users can save payment methods.
+131. Users can apply discount codes at checkout.
+132. Admin can validate discount usage.
+133. Payment failure will cancel booking.
+134. Users can retry payment if failed.
+135. Court owners can request settlement reports.
+
+--- Matches & Tournaments ---
+136. Users can create matches for multiple players.
+137. Users can invite friends to matches.
+138. Users can join public matches.
+139. Users can schedule tournaments.
+140. Admin approval required for large events.
+141. Court owners can host tournaments.
+142. Tournament slots must follow peak hour rules.
+143. Users can register for tournaments in advance.
+144. Users can cancel tournament registration under rules.
+145. Users can view tournament schedule.
+146. Users receive notifications for match updates.
+147. Users can track tournament standings.
+148. Court owners can manage tournament results.
+149. Users can see leaderboard for tournaments.
+150. Admin can monitor tournament compliance.
+
+--- User Profiles & Preferences ---
+151. Users can create personal profiles.
+152. Users can set preferred sports.
+153. Users can set preferred courts.
+154. Users can manage favorite courts.
+155. Users can update contact info.
+156. Users can change profile pictures.
+157. Users can manage notification preferences.
+158. Users can view booking history.
+159. Users can view payment history.
+160. Users can see upcoming matches.
+161. Users can track achievements and badges.
+162. Users can link social media accounts.
+163. Users can follow other users.
+164. Users can message other users.
+165. Users can rate other users after matches.
+166. Users can get badges for activity levels.
+
+--- Court Owner Profiles & Settings ---
+167. Court owners can create profiles.
+168. Court owners can add multiple courts.
+169. Court owners can set court images.
+170. Court owners can set court descriptions.
+171. Court owners can manage pricing per court.
+172. Court owners can manage peak hours.
+173. Court owners can track bookings per court.
+174. Court owners can receive notifications.
+175. Court owners can manage discounts.
+176. Court owners can manage tournaments.
+177. Court owners can set rules for their courts.
+178. Court owners can update contact info.
+179. Court owners can see user ratings.
+180. Court owners can communicate with users.
+
+--- Support & Contact ---
+181. For any issues, users can contact: courtify@gmail.com
+182. For missing information, users can contact support.
+183. Admin handles escalations from users or owners.
+184. Court owners can submit support tickets.
+185. Users can submit support tickets.
+186. Admin can respond to tickets.
+187. Tickets have priority levels: low, medium, high.
+188. Users can see ticket status.
+189. Court owners can see ticket status.
+190. Notifications sent for ticket updates.
+
+--- Miscellaneous ---
+191. Peak hours: 5 PM to 10 PM.
+192. Membership discounts: 10% for regular, 20% for premium members.
+193. Court rates vary by sport: Badminton, Cricket, Football, Tennis.
+194. Courts can have special equipment: nets, lights, seating.
+195. Users can report damaged courts.
+196. Admin can temporarily disable courts under maintenance.
+197. Users and owners are expected to follow rules.
+198. Platform encourages sportsmanship and fair play.
+199. All data stored securely in database.
+200. Users and owners must agree to terms of service.
+201. Advanced analytics available for admin.
+202. Platform built for seamless booking, tracking, and notifications.
+203. Courtify AI assistant can answer queries using this information.
